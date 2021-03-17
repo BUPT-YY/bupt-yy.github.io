@@ -1,0 +1,237 @@
+main {
+    padding-top: 12pt;
+}
+
+/****************************************************************/
+
+
+.displayedMedia {
+  margin: 32pt;
+}
+
+footer {
+  padding-top: 32pt;
+  color: #AAA;
+  font-size: 10pt;
+}
+
+footer ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+footer ul li {
+    display: inline;
+    padding-right: 12pt;
+}
+
+footer dl dt {
+    font-weight:bold;
+    margin-right:10px;
+    text-align: right;
+    width:100pt;
+    display: inline;
+}
+ 
+footer dl dd {
+    margin:2px 0;
+    display: inline;
+}
+
+footer div.postal-address {
+    display: inline-block;
+    vertical-align: top;
+}
+
+
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+/* Special class on .container surrounding .navbar, used for positioning it into place. */
+.navbar-wrapper {
+  position: relative;
+  z-index: 10;
+ }
+
+.navbar-transparent {
+  background-color:rgba(0,0,0,0.5);
+}
+
+/* Carousel base class */
+.carousel {
+  margin-bottom: 60px;
+
+  /* Negative margin to pull up carousel. 90px is roughly margins and height of navbar. */
+  margin-top: -30px;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel .item {
+  height: 500px;
+}
+.carousel img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 500px;
+}
+
+
+/****************************************************************/
+
+#showcase {
+    width: 100%;
+    background-color: #333;
+    min-height: 350pt;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    /*padding-top: 56pt;*/
+    margin-bottom: 16pt;
+    /*margin-top: -90px;*/
+}
+
+#empty-showcase {
+    width: 100%;
+    background-color: #333;
+    min-height: 60px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    padding-top: 56pt;
+    margin-bottom: 16pt;
+    margin-top: -90px;
+}
+
+.splash-home {
+    background-image: url('/images/banners/home.jpg');
+    height: 80%
+}
+
+.splash-teaching {
+    background-image: url('/images/banners/teaching.jpg');
+}
+
+#showcase #leftshowcase {
+    width: 60%;
+}
+
+#showcase h1 {
+    text-align: right;
+    padding: 15pt;
+    font-size: 48pt;
+    font-weight: bold;
+    margin: 0;
+    color: #fff;
+    text-shadow: #111 1px 1px 3px;
+    padding-top: 60pt;
+}
+
+#showcase h2 {
+    text-align: right;
+    padding: 24pt;
+    font-size: 24pt;
+    font-weight: bold;
+    margin: 0;
+    color: #fff;
+    text-shadow: #111 1px 1px 2px;
+}
+
+#showcase a {
+    color: #428bca;
+    text-decoration: none;
+}
+
+#showcase a:hover {
+    text-decoration: underline;
+}
+
+/****************************************************************/
+
+.front-page h4, .front-page h3 {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+/*
+.front-page h1 a, .front-page h2 a, .front-page h3 a, .front-page h4 a {
+  color: #3FBF3F;
+}
+
+a {
+    color: #3FBF3F;
+}*/
+
+/****************************************************************/
+/* handle tex logo in html */
+
+.tex sub, .latex sub, .latex sup {
+  text-transform: uppercase;
+}
+
+.tex sub, .latex sub {
+  vertical-align: -0.5ex;
+  margin-left: -0.1667em;
+  margin-right: -0.125em;
+}
+
+.tex, .latex, .tex sub, .latex sub {
+  font-size: 1em;
+}
+
+.latex sup {
+  font-size: 0.85em;
+  vertical-align: 0.15em;
+  margin-left: -0.36em;
+  margin-right: -0.15em;
+}
+
+/****************************************************************/
+/* latex markup */
+
+p.theorem {
+}
+
+span.theorem-title {
+  font-weight: bold;		  
+  margin-right: 0.5em;
+}
+
+span.theorem-citation {
+  margin-right: 0.5em;
+}
+
+/****************************************************************/
+/* publication list and other citations */
+
+.bibliography-item {
+    text-indent: -4em;
+    margin-left: 4em;
+}
+
+.center-cropped {
+  object-fit: none; /* Do not scale the image */
+  object-position: center; /* Center the image within the element */
+  height: 180px;
+}
+
+small {
+    font-size: 70%;
+    opacity: 0.5;
+}
+
+h1 small {
+    font-size: 50%;
+    opacity: 0.5;
+}
+
+/* Thumbnails */
+
+.thumbnail img {
+    width: 100%;
+}

@@ -1,0 +1,43 @@
+
+h3.cv {
+    padding-top: 0.75em;
+}
+
+div.description {
+    font-size: 90%;
+    padding-left: 1em;
+}
+
+div.cvitem {
+    display: table;
+    margin-top: 1em;
+    /*margin-bottom: 1em;*/
+    /*clear: right;*/
+    width: 100%;
+}
+
+div.cvtext {
+    width: 70%;
+    display: table-cell;
+}
+
+div.cvtime {
+    width: 30%;
+    /*float:right;*/
+    text-align: right;
+    display: table-cell;
+}
+
+div.event {
+    font-size: 100%;
+}
+
+div.place {
+    font-size: 80%;
+}
+
+div.displayedMedia {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}

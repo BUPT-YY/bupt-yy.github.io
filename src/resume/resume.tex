@@ -1,0 +1,159 @@
+%-------------------------
+% Resume in Latex
+% Author : Sourabh Bajaj
+% Website: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{fancyhdr}
+\usepackage{ctex}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.375in}
+\addtolength{\evensidemargin}{-0.375in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item\small{
+    \textbf{#1}{ #2 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING-----------------
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+  \textbf{~~~~~~{\huge 杨勇}} & Email : \href{YangYong@bupt.edu.cn}{YangYong@bupt.edu.cn}\\
+  北京市海淀区西土城路10号, 100876 & Mobile : +86-1369-3176-112 \\
+\end{tabular*}
+
+
+%-----------EDUCATION-----------------
+\section{教育经历}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {硕士在读: 信息与通信工程}{Beijing, China}
+      {北京邮电大学; (保研)}{Sep. 2019 -- 至今}
+    \resumeSubheading
+      {信息工程: 信息与通信工程学院}{Beijing, China}
+      {北京邮电大学}{Sep. 2015 -- July. 2019}
+  \resumeSubHeadingListEnd
+
+
+%-----------EXPERIENCE-----------------
+\section{主修课程}
+  \resumeSubHeadingListStart
+	\resumeSubItem{数学类}{}
+      \resumeItemListStart
+        \resumeItem{概率论}{}
+        \resumeItem{数学分析 \& 实分析}{}
+        \resumeItem{凸优化 \& 矩阵计算}{}
+        \resumeItem{离散数学}{}
+        \resumeItem{信息论 \& 编码(信源编码, 信道编码)}{}
+      \resumeItemListEnd
+
+	\resumeSubItem{计算机类}{}
+      \resumeItemListStart
+        \resumeItem{C++, Java语言程序设计}
+          {}
+        \resumeItem{Linux操作系统}
+          {}
+        \resumeItem{数据库}
+          {(MySql).}
+        \resumeItem{计算机网络}
+          {(选修课).}
+      \resumeItemListEnd
+ \resumeSubHeadingListEnd
+
+
+%-----------PROJECTS-----------------
+\section{项目(研一期间)}
+  \resumeSubHeadingListStart
+    \resumeSubItem{FPGA: 5G BBU/RRU}
+      {OFDM信号的相位校正, Verilog.}
+    \resumeSubItem{HPC: OpenCL}
+      {基于OpenCL的并行计算(语言是OpenCL/C++, 平台是FPGA(intel, xilinx), GPU(Nvidia)).}
+    \resumeSubItem{5G: Scheduling}
+      {C代码, 与另一位老师的学生一起进行.}
+%     \resumeSubItem{Mac Setup}
+%       {Book that gives step by step instructions on setting up developer environment on Mac OS.}
+  \resumeSubHeadingListEnd
+  
+\section{Honors \& Awards}
+\resumeSubHeadingListStart
+\resumeSubheading
+{全国大学生数学竞赛(非数学类)}{Beijing, China}
+{初赛一等奖 \& 决赛二等奖}{2016-2017}
+\resumeSubheading
+{建模比赛}{Online, Beijing, China}
+{美赛Meritorious奖 \& 全赛北京市一等奖}{2017 -- 2018}
+\resumeSubHeadingListEnd
+
+%
+%--------PROGRAMMING SKILLS------------
+\section{Programming Skills}
+ \resumeSubHeadingListStart
+   \item{
+     \textbf{Languages(曾用过)}{: C/C++, Java, Python, Shell(Linux), Matlab \& Mathematica}
+     \hfill
+   }
+	\item{
+	\textbf{最近一段时间的组内工作:}~OpenCL(GPU, FPGA)
+}
+	\item{熟悉LaTeX.}
+ \resumeSubHeadingListEnd
+%-------------------------------------------
+\end{document}
+
